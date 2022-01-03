@@ -1,3 +1,40 @@
 body {
   align-content: center;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calculator {
+  margin: 40px;
+  display: flex;
+}
+
+.table {
+  align-content: center;
+  margin: 10vh 20vw;
+}
+
+.result {
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+.number {
+  background-color: #e0e0e0;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+  padding: 5px;
+}
+
+.calcSign {
+  background-color: #f5913e;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+  padding: 5px;
 }
