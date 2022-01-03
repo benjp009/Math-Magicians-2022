@@ -44,7 +44,7 @@ function Calculator() {
             <td>=</td>
           </tr>
         </tfoot>
-      < /table>
+      </table>
     </div>
   );
 }
