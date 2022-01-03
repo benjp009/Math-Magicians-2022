@@ -1,4 +1,4 @@
-const reportWebVitals = onPerfEntry => ({
+const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({
       getCLS,
@@ -14,6 +14,6 @@ const reportWebVitals = onPerfEntry => ({
         getTTFB(onPerfEntry);
       });
   }
-});
+};
 
 export default reportWebVitals;
