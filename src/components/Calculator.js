@@ -1,6 +1,7 @@
 // import './Calculator.css';
 import React from 'react';
 
+// eslint-disable-next-lin react/prefer-stateless-function
 class Calculator extends React.Component {
   render() {
     return (
@@ -39,11 +40,11 @@ class Calculator extends React.Component {
           </tbody>
           <tfoot>
             <tr>
-              <td colSpan='2'>0</td>
+              <td colSpan="2">0</td>
               <td>.</td>
               <td>=</td>
             </tr>
-            </tfoot>
+          </tfoot>
         </table>
       </div>
     );
