@@ -8,6 +8,11 @@ table {
   width: 100%;
 }
 
+button {
+  background-color: transparent;
+  border: 0;
+}
+
 .calculator {
   margin: 40px;
   display: flex;
