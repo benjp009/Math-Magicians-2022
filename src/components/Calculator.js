@@ -14,35 +14,73 @@ class Calculator extends React.Component {
           </thead>
           <tbody>
             <tr>
-              <td className="number">AC</td>
-              <td className="number">±</td>
-              <td className="number">%</td>
-              <td className="calcSign">÷</td>
+              <td className="number">
+                <button type="button">Ac</button>
+              </td>
+              <td className="number">
+                <button type="button">±</button>
+              </td>
+              <td className="number">
+                <button type="button">%</button>
+              </td>
+              <td className="calcSign">
+                <button type="button">÷</button>
+              </td>
             </tr>
             <tr>
-              <td className="number">7</td>
-              <td className="number">8</td>
-              <td className="number">9</td>
-              <td className="calcSign">×</td>
+              <td className="number">
+                <button type="button">7</button>
+              </td>
+              <td className="number">
+                <button type="button">8</button>
+              </td>
+              <td className="number">
+                <button type="button">9</button>
+              </td>
+              <td className="calcSign">
+                <button type="button">×</button>
+              </td>
             </tr>
             <tr>
-              <td className="number">4</td>
-              <td className="number">5</td>
-              <td className="number">6</td>
-              <td className="calcSign">-</td>
+              <td className="number">
+                <button type="button">4</button>
+              </td>
+              <td className="number">
+                <button type="button">5</button>
+              </td>
+              <td className="number">
+                <button type="button">6</button>
+              </td>
+              <td className="calcSign">
+                <button type="button">-</button>
+              </td>
             </tr>
             <tr>
-              <td className="number">1</td>
-              <td className="number">2</td>
-              <td className="number">3</td>
-              <td className="calcSign">+</td>
+              <td className="number">
+                <button type="button">1</button>
+              </td>
+              <td className="number">
+                <button type="button">2</button>
+              </td>
+              <td className="number">
+                <button type="button">3</button>
+              </td>
+              <td className="calcSign">
+                <button type="button">+</button>
+              </td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <td colSpan="2" className="number">0</td>
-              <td className="number">.</td>
-              <td className="calcSign">=</td>
+              <td colSpan="2" className="number">
+                <button type="button">0</button>
+              </td>
+              <td className="number">
+                <button type="button">.</button>
+              </td>
+              <td className="calcSign">
+                <button type="button">=</button>
+              </td>
             </tr>
           </tfoot>
         </table>
