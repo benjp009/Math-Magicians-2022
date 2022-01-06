@@ -4,6 +4,9 @@ The goal of the exercise is to create a working calculator with React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screenshot](https://user-images.githubusercontent.com/31847346/148350518-a90c296d-972d-462f-aefa-6535dc70c9e5.png)
+
+
 ## Built With
 
 - HTML
