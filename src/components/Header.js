@@ -10,9 +10,9 @@ export default function Header() {
       <div className={styles.navbar}>
         <p href="/">Home</p>
         <p> | </p>
-        <p href="/">Calculator</p>
+        <p href="/calculator">Calculator</p>
         <p> | </p>
-        <p href="/">Quote</p>
+        <p href="/quote">Quote</p>
       </div>
     </header>
   );
