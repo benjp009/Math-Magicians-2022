@@ -1,19 +1,19 @@
 import React from 'react';
+import styles from './Header.module.css';
 
 export default function Header() {
   return (
-    <header>
-      <div>
+    <header className={styles.header}>
+      <div className={styles.title}>
         <h1>Math Magicians</h1>
       </div>
-      <div className="topnav">
-        <a href="/">Home</a>
-        <a> | </a>
-        <a href="/">Calculator</a>
-        <a> | </a>
-        <a href="/">Quote</a>
-        <a> | </a>
+      <div className={styles.navbar}>
+        <p href="/">Home</p>
+        <p> | </p>
+        <p href="/">Calculator</p>
+        <p> | </p>
+        <p href="/">Quote</p>
       </div>
     </header>
-  )
+  );
 }
