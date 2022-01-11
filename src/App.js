@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link
-} from "react-router-dom"
+} from "react-router-dom";
 import Calculator from './components/Calculator';
 import Header from './components/Header';
 
