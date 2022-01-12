@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  min-width: 40vw;
+}
+
+.calculator {
+  min-width: 60vw;
+}
