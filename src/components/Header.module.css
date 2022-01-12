@@ -14,5 +14,9 @@
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  gap: 20px;
+}
+
+.link {
+  margin: 0 2vw;
+  text-decoration: none;
 }
