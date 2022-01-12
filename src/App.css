@@ -36,7 +36,7 @@ button {
   background-color: #e0e0e0;
   border: 1px solid #c8c8c8;
   text-align: center;
-  padding: 5px;
+  padding: 10px 30px;
 }
 
 .number:hover {
@@ -47,7 +47,7 @@ button {
   background-color: #f5913e;
   border: 1px solid #c8c8c8;
   text-align: center;
-  padding: 5px;
+  padding: 10px 30px;
 }
 
 .calcSign:hover {
