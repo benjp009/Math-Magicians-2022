@@ -1,38 +1,55 @@
-.App {
+body {
+  align-content: center;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+button {
+  min-width: 100%;
+  background-color: transparent;
+  height: 100%;
+  border: 0;
+  padding: 10px 30px;
+}
+
+.calculator {
+  margin: 40px;
+  display: flex;
+}
+
+.table {
+  align-content: center;
+  margin: 10vh 20vw;
+}
+
+.result {
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+.number {
+  background-color: #e0e0e0;
+  border: 1px solid #c8c8c8;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.number:hover {
+  background-color: #858694;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calcSign {
+  background-color: #f5913e;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+  padding: 10px 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calcSign:hover {
+  background-color: #e0e0e0;
 }

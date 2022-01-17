@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import CalculatorPage from './components/CalculatorPage';
+import Header from './components/Header';
+import Quote from './components/Quote';
+import Home from './components/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// eslint-disable-next-line react/prefer-stateless-function
+export default class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <Home />
+        <Quote />
+        <CalculatorPage />
+      </>
+    );
+  }
 }
-
-export default App;

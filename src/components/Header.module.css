@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+}
+
+.title {
+  min-width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  min-width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.link {
+  margin: 0 2vw;
+  text-decoration: none;
+}
